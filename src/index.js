@@ -1,4 +1,6 @@
-import React from 'react';
+import React, {
+  useRef,
+} from 'react';
 
 export default function Canvas({
   /*A callback function provided to the canvas*/
@@ -7,8 +9,12 @@ export default function Canvas({
     so it behaves as a regular canvas would.*/
   ...otherProps
 }) {
+  const canvasRef = useRef(null);
   return (
-    <canvas {...otherProps}/>
+    <canvas
+      ref={canvasRef}
+      {...otherProps}
+    />
   );
 }
 
