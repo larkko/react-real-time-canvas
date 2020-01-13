@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/larkko/react-real-time-canvas/issues"
   },
-  "homepage": "https://github.com/larkko/react-real-time-canvas#readme"
+  "homepage": "https://github.com/larkko/react-real-time-canvas#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.0",
+    "@babel/core": "^7.8.0",
+    "@babel/preset-env": "^7.8.2",
+    "@babel/preset-react": "^7.8.0"
+  }
 }
