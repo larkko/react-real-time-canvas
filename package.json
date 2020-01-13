@@ -1,0 +1,19 @@
+{
+  "name": "react-real-time-canvas",
+  "version": "0.0.1",
+  "description": "A react component that makes the use of a continuously updating canvas easy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larkko/react-real-time-canvas.git"
+  },
+  "author": "Lasse Arkko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larkko/react-real-time-canvas/issues"
+  },
+  "homepage": "https://github.com/larkko/react-real-time-canvas#readme"
+}
